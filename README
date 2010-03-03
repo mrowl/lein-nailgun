@@ -1,0 +1,9 @@
+A leiningen plugin to launch a vimclojure nailgun server
+
+To install, add
+
+[org.clojars.brandonw/lein-nailgun "1.0.0"]
+
+to :dev-dependencies in project.clj
+
+The current version of vimclojure specified as a dep requires clojure 1.1
