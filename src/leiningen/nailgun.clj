@@ -10,7 +10,6 @@
                    (into-array String [~addr-port]))
             (catch Exception e#
               (println e#)
-              (println "Make sure nailgun is added as a"
-                       "dev-dependency in your"
-                       "project.clj."))))))
+              (println "Make sure vimclojure is added as a"
+                       "dev-dependency in your project.clj."))))))
   ([project] (nailgun project "127.0.0.1")))
