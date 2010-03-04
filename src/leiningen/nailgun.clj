@@ -2,7 +2,7 @@
   (:use [leiningen.compile :only [eval-in-project]]))
 
 (defn nailgun
-  "Launch nailgun server."
+  "Launch a vimclojure nailgun server."
   ([project addr-port]
    (eval-in-project 
      project
