@@ -6,7 +6,7 @@
   ([project addr-port]
    (eval-in-project 
      project
-     `(do (try (~'com.martiansoftware.nailgun.NGServer/main
+     `(do (try (~'vimclojure.nailgun.NGServer/main
                    (into-array String [~addr-port]))
             (catch Exception e#
               (println e#)
