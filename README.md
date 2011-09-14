@@ -6,7 +6,7 @@ A leiningen plugin to launch a vimclojure nailgun server
 
 Make sure `:dev-dependencies` in your project.clj contains the following:
 
-	:dev-dependencies [[org.clojars.brandonw/lein-nailgun "1.0.0"]]
+	:dev-dependencies [[org.clojars.brandonw/lein-nailgun "1.1.0"]]
 
 ## Known Issues
 
